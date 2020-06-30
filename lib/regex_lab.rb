@@ -42,20 +42,6 @@ one.each do |word|
 end
 
 def valid_phone_number?(phone)
-  count = 0
-  array = []
-  if phone.size == 9
-    phone.each do |nums|
-      nums.size do
-        if nums[count] == [a-z]
-          array << nums
-        end
-       count += 1
-      end
-    end
-  end
-  if array.size >= 0
-    return true
-  end
+  if phone
 end
 
