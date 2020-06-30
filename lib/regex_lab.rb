@@ -42,6 +42,6 @@ one.each do |word|
 end
 
 def valid_phone_number?(phone)
-  if phone =
+  if phone =~ /[aeiou]/
 end
 
