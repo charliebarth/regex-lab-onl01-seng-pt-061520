@@ -7,4 +7,5 @@ count = 0
       count += 1
     end
   end
+  puts phone[1]
   
