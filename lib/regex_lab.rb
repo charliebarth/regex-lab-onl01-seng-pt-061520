@@ -42,6 +42,7 @@ one.each do |word|
 end
 
 def valid_phone_number?(phone)
-  if phone =~ /[aeiou]/
+  if phone =~ /[a-z][A-Z]/
+    return false
 end
 
