@@ -44,5 +44,7 @@ end
 def valid_phone_number?(phone)
   if phone =~ /[a-z][A-Z]/
     return false
+  else 
+    return true
 end
 
